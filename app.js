@@ -1,3 +1,4 @@
+
 const API_ENDPOINT = "https://api.example.com/data";
 const dataContainer = document.getElementById("data-container");
 const loadBtn = document.getElementById("load-data-btn");
@@ -15,5 +16,4 @@ async function fetchData() {
     console.error(`Fetch Error:`, error)
   }
 }
-
 loadBtn.addEventListener("click", fetchData);
